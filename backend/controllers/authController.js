@@ -3,7 +3,7 @@ const crypto = require("crypto");
 const jwt = require("jsonwebtoken");
 const User = require("./../models/userModel");
 const asyncError = require("./../utils/asyncError");
-const GlobalError = require("./../utils/globalError");
+const GlobalError = require("./../utils/GlobalError");
 
 // create token
 const getToken = (id) => {
